@@ -1,0 +1,12 @@
+# Data downloaded or produced by the notebook (re-created on every run)
+*.parquet
+revision_results.zip
+data/raw/
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+# OS
+.DS_Store
+# Secrets
+.env

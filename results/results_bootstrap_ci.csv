@@ -1,0 +1,10 @@
+,estimate,ci_low,ci_high
+auc_main,0.7437,0.6898,0.7901
+auc_repo,0.7593,0.7065,0.8056
+coverage,0.4174,0.3509,0.4816
+risk,0.1071,0.0913,0.1229
+cond_fail,0.2566,0.2278,0.2847
+precision,0.7434,0.7153,0.7722
+auc_diff,-0.0156,-0.0228,-0.009
+within_repo_auc_main,0.5071,0.463,0.5382
+within_repo_auc_repo,0.4626,0.3952,0.5085

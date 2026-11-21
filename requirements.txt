@@ -1,0 +1,15 @@
+# Versions used for the reported results (Google Colab, Python 3.13, Tesla T4 GPU)
+pandas==2.2.3
+numpy==2.4.6
+scikit-learn==1.6.1
+lightgbm==4.6.0
+scipy==1.16.3
+shap==0.54.1
+pyarrow
+huggingface_hub
+matplotlib
+# Only for the language-model baselines (steps 6 and 6b), which need a GPU
+transformers==5.22.1
+torch==2.14.1
+accelerate
+bitsandbytes
