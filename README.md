@@ -28,7 +28,6 @@ On 30,634 delegated GitHub issues from the [AIDev](https://huggingface.co/datase
 projects-not-issues/
 ├── README.md
 ├── LICENSE                     MIT licence for the code
-├── CITATION.cff                How to cite this repository
 ├── requirements.txt            Library versions used for the reported results
 ├── notebooks/
 │   └── pipeline.ipynb          The whole study, steps 0–21, each with an explanation
@@ -42,8 +41,6 @@ projects-not-issues/
 ├── label_validation/
 │   ├── README.md               Coding scheme for failed pull requests
 │   └── label_validation_sample.csv   200 failed PRs to code by hand
-└── paper/
-    └── README.md               Paper and thesis
 ```
 
 ## How to reproduce
