@@ -68,7 +68,6 @@ To include Llama-3.1-8B in step 6b, accept its licence on Hugging Face and add y
 | 4 | Repository-clustered bootstrap intervals and within-repository AUC |
 | 5 | Robustness checks: agent drift, selection steps, label horizon, Copilot sensitivity |
 | 6 | Zero-shot language-model baseline (Qwen2.5-1.5B) |
-| 6b | Five open language models on the same issues |
 | 7 | Sample of 200 failed pull requests for manual label validation |
 | 8 | Pooled and within-repository AUC of every feature |
 | 9 | Results across risk budgets from 0.05 to 0.30 |
@@ -88,21 +87,6 @@ To include Llama-3.1-8B in step 6b, accept its licence on Hugging Face and add y
 ## Data
 
 The study uses the AIDev dataset ([Li, Zhang and Hassan, 2025](https://arxiv.org/abs/2507.15003)) at commit `b8dc67df93e7c11f6f20c84129db7232eb1ec253`, whose latest timestamp is 7 April 2026. No raw data is stored here; see [`data/README.md`](data/README.md).
-
-## Citation
-
-If you use this code or its results, please cite the repository (see [`CITATION.cff`](CITATION.cff)) and the AIDev dataset:
-
-```bibtex
-@misc{li2025aiteammates_se3,
-  title         = {The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding Agents Are Reshaping Software Engineering},
-  author        = {Hao Li and Haoxiang Zhang and Ahmed E. Hassan},
-  year          = {2025},
-  eprint        = {2507.15003},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.SE}
-}
-```
 
 ## Licence
 
